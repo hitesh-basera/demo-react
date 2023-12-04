@@ -11,38 +11,38 @@
 - Both of these bundlers substantially reduce the time it takes for the transfer of data and files to the server from the application.
 - Along with that both bundlers parcel and webpack remove the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality of the code remains unchanged.
 - It offers blazing fast performance utilizing multicore processing, and requires zero configuration. Parcel can take any type of file as an entry point, but an HTML or JavaScript file is a good place to start.
-### Parcel Features:
+  ### Parcel Features:
 
-- HMR (Hot Module Replacement) - parcel keeps track of file changes via file watcher algorithm and renders the changes in the files
-- File watcher algorithm - made with C++
-- Minification
-- Cleaning our code
-- DEV and production Build
-- Super fast building algorithm
-- Image optimization
-- Caching while development
-- Compresses
-- Compatible with older version of browser
-- HTTPS in dev
-- Port Number
-- Consistent hashing algorithm
-- Zero Configuration
-- Automatic code splitting
+  - HMR (Hot Module Replacement) - parcel keeps track of file changes via file watcher algorithm and renders the changes in the files
+  - File watcher algorithm - made with C++
+  - Minification
+  - Cleaning our code
+  - DEV and production Build
+  - Super fast building algorithm
+  - Image optimization
+  - Caching while development
+  - Compresses
+  - Compatible with older version of browser
+  - HTTPS in dev
+  - Port Number
+  - Consistent hashing algorithm
+  - Zero Configuration
+  - Automatic code splitting
 
-### installation commands:
+  ### installation commands:
 
-```
-npm install -D parcel
-```
-
-`-D` is used for development and as a development dependency.
-
-- Parcel Commands :
-  - For development build:
   ```
-  npx parcel <entry_point>
+  npm install -D parcel
   ```
-  - For production build :
-  ```
-  npx parcel build <entry_point>
-  ```
+  
+  `-D` is used for development and as a development dependency.
+
+  - Parcel Commands :
+    - For development build:
+    ```
+    npx parcel <entry_point>
+    ```
+    - For production build :
+    ```
+    npx parcel build <entry_point>
+    ```
