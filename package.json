@@ -1,0 +1,26 @@
+{
+  "name": "invoice-react",
+  "version": "1.0.0",
+  "description": "LearReact, DemoReactApp",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh-basera/demo-react.git"
+  },
+  "keywords": [
+    "DemoReactApp",
+    "LearnReact"
+  ],
+  "author": "Vidyarthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitesh-basera/demo-react/issues"
+  },
+  "homepage": "https://github.com/hitesh-basera/demo-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
