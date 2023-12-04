@@ -1,4 +1,4 @@
-#Learn React 🚀🚀
+# Learn React 🚀🚀
 # Types of Dependency
 - Dev Dependency - eg: Parcel is a bundler required during development
 - Normal Dependency - Parcel is not required in production
