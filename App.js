@@ -1,12 +1,46 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import logoPhoto from './assets/logo_app.jpg';
 
-const parent = React.createElement("div",{id: "parent"},
-    React.createElement("div",{id:"child"},[
-    React.createElement("h1",{},"I'm a dev h1 tag"),
-    React.createElement("h2",{},"Hello I'm a h2 tag")
-])
-);
-console.log(parent);
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items - Home, About
+ * Body
+ *  - Search Bar
+ *  - Resteraunt Card Container
+ *   - Restaurant Card
+ * Footer
+ *  - Copyright
+ *  - Contact Us, links etc
+ * 
+ */
+//function compononet a javascript function return a peice of JSX code
+const Header = ()=>{
+    return(
+        <div className="header">
+            <div className="logo-container">
+                <img src={logoPhoto} className="logo" />
+            </div>
+            <div className="nav-items">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Cart</li>
+                </ul>
+                </div>
+        </div>
+    );
+    };
+    
+const AppLayout =()=>{
+return (
+    <div className="app">
+    <Header />
+    </div>
+    );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<AppLayout />);
