@@ -4,6 +4,7 @@
   "description": "LearReact, DemoReactApp",
   "main": "App.js",
   "scripts": {
+    "copy-files": "npm run copy-img & npm run copy-assets & npm run copy-data",
     "start": "parcel index.html",
     "publish": "parcel build index.html",
     "test": "jest"
