@@ -20,3 +20,23 @@
 - Minification
 - Bundling
 - Compressing
+# Default Export and Named Export
+- Two type of Export/Import
+- Default Export/Import
+- export default Component;
+- import Component from "path";
+- Named Export/Import : when export multiple objects/component use named export
+- export const Component;
+- import {Component} from "path";
+# Good practice small not more than 100 lines
+
+# React Hooks : Normal JS Utility functions
+- useState() : give superpowerful state variables in react - whenever state variable updates react will re-render components.
+- useEffect()
+
+# React Fiber
+- Reconciliation algorithim, virtual DOM
+- React is fast because react is efficiently able to manipulat DOM.
+- virtual DOM - is representation of actual DOM
+- differntial alogrithim
+- incremental rendering
